@@ -1,0 +1,231 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+/*Navbar*/
+.navbar{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: rgba(139, 168, 138, 0.904);
+    position: sticky;
+    top:0;
+}
+.navbar ul{
+    display:flex;
+    list-style:none ;
+    margin:20px 0px;
+}
+.navbar ul li{
+    font-family:century;
+    font-size:1.1rem;
+    font-weight:bold;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color:black;
+    padding:2px 20px;
+    transition:all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color:#ffffff;
+    color:black;
+    box-shadow: 0 0 10px white; 
+}
+
+/*Home Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0);
+    height: 740px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+#home::before{
+    content:"";
+    position: relative;
+    top: 0;
+    background-image:url(./img/romania.jpg);
+    background-size:cover;
+    background-position: top center;
+    height: 900px;
+    width: 99%;
+    z-index: -1;
+    opacity: .8;
+    padding: 10px;a  
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*2px solid black;*/
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 35.8%;
+    text-align: center;
+}
+.heading{
+    font-family:century;
+    font-size: 3rem;
+    text-align: center;
+    margin:80px 0px;
+    
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    outline: none;
+    transition: .6s ease;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(222, 184, 135);
+    color: white;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+}
+/* About section*/
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    font-style: normal;
+ 
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 300px;
+    height: 400px;
+
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    word-spacing: 5px;
+
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#intro h4{
+    text-align: justify;
+    padding: 4px;
+    word-spacing: 5px;
+    font-style: italic;
+}
+/* Gallery section*/
+#gallery{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(139, 168, 138, 0.904);
+    color: black;
+    align-items: center;
+    padding: 20px;
+}
+.picture{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.picture img{
+    width: 380px;
+    height: 330px;
+    margin: 20px;
+}
+.video{
+    align-items: center;
+    text-align: center;
+}
+
+/*Education Section*/
+#education{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+}
+/* Experience Section*/
+#experience{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(139, 168, 138, 0.904);
+    color: black;
+    align-items: center;
+    padding: 20px;
+}
+.row{
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height:450px;
+    border: 2px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top,rgba(64, 119, 62, 0.904)50%, white 50%);
+    background-size: 100% 200%;
+    transition: all.8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(160, 255, 36);
+   
+}
+/* Contact section*/
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    background-image:url(./img/romania.jpg);
+    background-size:cover;
+    color: black;
+    align-items: center;
+    text-align: justify;
+    padding: 4px;
+    word-spacing: 5px;
+}
+.link{
+    align-items: center;
+    margin:90px 50px;
+   
+}

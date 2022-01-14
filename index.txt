@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Personal Website</title>
+<link rel="stylesheet" href="css/style.css"
+</head>
+<body>
+    <nav class="navbar">
+         <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li> 
+            <li><a href="#gallery">Gallery</a></li> 
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+       </nav>
+
+<section id="home">
+           <div class="main"
+           <h1 class="heading"style="font-size:200%;"> WELCOME TO MY PROFILE </h1> 
+           <button class="btn"> Click me</button>
+           <br><audio controls></br>
+            <source src="audio/Who Says.mp3" type="audio/mpeg">
+        </audio>
+           
+       </div>
+</section>
+
+<section id="about">
+    <h1 class="heading">ABOUT ME</h1>
+    <div id="pic">
+        <img src="./images/me.JPG" alt="">
+        <div id="intro"> 
+            <h2 style="color:cadetblue;"><i> AFRINA ROZLAN</i></h2>
+            <style>
+            table, th, td {
+              border: 2px solid black;
+              border-collapse: collapse;
+            }
+            </style>
+        <h3>Biodata</h3>
+          <table style="width:50%">
+          <tr>
+            <th>Name</th>
+            <td>Afrina Binti Rozlan</td> 
+          </tr>
+          <th>Age</th>
+            <td>21 years old</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td>Lot 15113, Kampung Jijan Tengah 71800, Nilai. Negeri Sembilan </td>
+          </tr>
+          <tr>
+            <th>Status</th>
+            <td>Student</td>
+          </tr>
+        </table> 
+        <h4>After studying information management for 3 years at the UITM Rembau campus, I received my diploma one month ago. For the first time, I'm looking for a full-time work. Before going to university, I worked for a year as a sales assistant at a veil store as an employee. I'm not sure where I'll be in five years or what my long-term professional objectives will be. I don't have enough professional expertise to guarantee that the world is changing at the rate it is. However, I am confident in my ability to provide fresh ideas and innovative methods to any project I work on. Challenges and constructive criticism are always welcome in my professional life. I have a wide range of interests and am able to adapt rapidly to new situations. At the same time, I want to be part of a team that develops high-quality and original goods</h4>
+           <p>My target for next 5 years:</p>
+            <ul class="a">
+              <li>Have the presence of a stable career</li>
+              <li>Fulfilling parents' wishes, is doing Hajj</li>
+              <li>Vacation with family around the world</li>
+            </ul>
+            </div>
+    </div>
+</section>
+
+<section id="gallery"> 
+    <h1 class="heading">GAllERY</h1>
+    <p>One thing about me is that I enjoy collecting scenery photographs, as shown below:</p>
+    <div class= picture>
+      <img src="images/scenary 1.jpg" alt="">
+      <img src="images/scenary 2.jpg" alt="">
+      <img src="images/scenary 3.jpg" alt="">
+     </div>
+  <div class=video>
+      <video width="620" height="440" controls>
+      <source src="video/motivation.mp4.mp4" type="video/mp4">
+      </video>
+     <p>I watch this video anytime I am unhappy because it inspires and motivates me to reach the objectives and ambitions I have been aiming.</p>
+</div>
+
+</section>
+
+<section id="education">
+    <h1 class="heading">EDUCATION</h1>
+    <div class=gallery>
+        <img src="images/tabika_kemas.jpg" alt="">
+        <img src="images/sk Jijan.jpg" alt="">
+        <img src="images/SMANilai.png" alt="">
+        <img src="images/UiTM.png" alt="">
+
+    </div>
+</section>
+
+<section id="experience">
+    <h1 class="heading">EXPERIENCE</h1>
+    <div class="row">
+        <div class="box">
+            <h1 class="heading">2018</h1>
+            <p>Full-time sales assistant work from Monday through Sunday, 8:00 a.m. to 9:00 p.m. The profession entails mostly providing assistance to current sales people,
+               but it also includes direct sales to consumers over the counter or via phone. Creating client sales orders, invoicing, making purchases, and writing purchase orders are all part of the job.
+               Excellent customer service abilities are required for both in-store and phone customers. </p>
+        </div>  
+        <div class="box">
+                <h1 class="heading">2019</h1>
+                <p>Part-time restaurant job is expected. 8:00 a.m. to 2:00 p.m., Monday through Friday My part-time work is accepting food and beverage orders from customers. Memorize the menu and suggest appetizers and meals.
+                   Helps to keep the eating space nice and happy by tidying the table, cleaning up leftovers, and keeping the dining room tidy and pleasant. Then, in order to accommodate bigger guests, I set the table and reorganise the eating space.</p> 
+        </div>
+        <div class="box">
+            <h1 class="heading">2020</h1>
+            <p>I work as a drop ship, selling Mamasab items. I understand how to connect with consumers, create high levels of customer satisfaction, handle refunds, and handle all other types of customer communication. 
+               I'm also good at connecting it on social media platforms like Instagram, Facebook, and others.</p>
+         </div>
+         <div class="box">
+            <h1 class="heading">2021</h1>
+            <p>I am still working as a Mamasab dropship product owing to the covid-19 epidemic. I attempted to obtain a part-time work in 2021, but it was tough owing to quarantine and other factors.</p>
+         </div>
+        </div>
+</section>
+
+<section id="contact">
+    <h1 class="heading">CONTACT</h1>
+<p>
+  <strong>ADDRESS:</strong>
+</p>
+<br><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7970.234745428921!2d101.75109612393128!3d2.7816112081165585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdc1205c27da81%3A0x709ec55d36b5e44!2sKampung%20Jijan%2C%20Nilai%2C%20Negeri%20Sembilan!5e0!3m2!1sen!2smy!4v1641894301236!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p></br>
+<p>
+ <h2 class="link">
+ <a href="https://www.facebook.com/afrina.rozlan"><img src="images/fb icon.png" width="70px" ></a>
+ <a href="https://www.instagram.com/einaafrina/"><img src="images/ig icon.png" width="70px"></a>
+ <a href="mailto:rozlanafrina7@gmail.com"><img src="images/gmail icon.png" width="70px"></a>
+ <a href="https://wa.me/60172596284"><img src="images/ws icon.png" width="70px"></a>
+</p>
+</section>
+</body>
+</html>
